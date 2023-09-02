@@ -141,9 +141,3 @@ def download_file():
     #uploads = os.path.join(current_app.root_path, app.config['UPLOAD_FOLDER'])
     uploads="C:\\Users\\chatt\\OneDrive\\Documents\\flask\\uploads"
     return send_from_directory(directory=uploads, path="xyz.xlsx", as_attachment=True)
-
-
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5000)
